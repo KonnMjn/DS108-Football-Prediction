@@ -27,29 +27,29 @@ Football-Match-Prediction/
 ```
 
 Giải thích chức năng:
-- **`DataPreprocessing_Rolling.ipynb`**Tiền xử lý dữ liệu theo tiêu chuẩn *Medallion Architecture* và tạo đặc trưng bằng phương pháp **Rolling Window**.
-- **`DataPreprocessing_Rolling_Form.ipynb`**Tương tự như trên nhưng bổ sung đặc trưng từ thông tin **Form** (hiệu suất gần đây của đội bóng).
-- **`EDA_Visualization.ipynb`**Trực quan hóa dữ liệu với các biểu đồ phục vụ phân tích và đánh giá.
-- **`Main_Rolling.ipynb`**Huấn luyện và kiểm thử các mô hình sử dụng đặc trưng từ **Rolling Window**.
-- **`Main_Rolling_Form.ipynb`**Huấn luyện và kiểm thử mô hình với đặc trưng từ **Rolling Window** và **Form**.
-- **`TimeSplitValidation.ipynb`**Đánh giá khả năng tổng quát của mô hình bằng kỹ thuật **TimeSeriesSplit** (walk-forward validation).
+- `DataPreprocessing_Rolling.ipynb`Tiền xử lý dữ liệu theo tiêu chuẩn *Medallion Architecture* và tạo đặc trưng bằng phương pháp **Rolling Window**.
+- `DataPreprocessing_Rolling_Form.ipynb`Tương tự như trên nhưng bổ sung đặc trưng từ thông tin **Form** (hiệu suất gần đây của đội bóng).
+- `EDA_Visualization.ipynb`Trực quan hóa dữ liệu với các biểu đồ phục vụ phân tích và đánh giá.
+- `Main_Rolling.ipynb`Huấn luyện và kiểm thử các mô hình sử dụng đặc trưng từ **Rolling Window**.
+- `Main_Rolling_Form.ipynb`Huấn luyện và kiểm thử mô hình với đặc trưng từ **Rolling Window** và **Form**.
+- `TimeSplitValidation.ipynb`Đánh giá khả năng tổng quát của mô hình bằng kỹ thuật **TimeSeriesSplit** (walk-forward validation).
 
 ---
 
 ## ⚙️ Prediction App:
 
-- **`predictor.py`**Load mô hình và dữ liệu; định nghĩa hàm dự đoán cho giao diện thử nghiệm.
-- **`PredictApp.py`**
+- `predictor.py`Load mô hình và dữ liệu; định nghĩa hàm dự đoán cho giao diện thử nghiệm.
+- `PredictApp.py`
   Xây dựng giao diện người dùng bằng **Streamlit**, tương tác với `predictor.py`.
 
 ---
 
 ## 📦 Dataset:
 
-- **`FPro_data.csv`**Dữ liệu gốc thu thập từ web crawling:[fbref](https://fbref.com/en/) — tương ứng với **Bronze Layer**.
-- **`silver_FPro_data.csv`**Dữ liệu đã được xử lý — đạt chuẩn **Silver Layer**, được tạo bởi các file `DataPreprocessing`.
-- **`gold_FPro_data_rolling.csv`**Dữ liệu Silver có thêm đặc trưng **Rolling Window** — đạt chuẩn **Gold Layer**, được tạo bởi `DataPreprocessing_Rolling.ipynb`.
-- **`gold_FPro_data_combination.csv`**
+- `FPro_data.csv`Dữ liệu gốc thu thập từ web crawling:[fbref](https://fbref.com/en/) — tương ứng với **Bronze Layer**.
+- `silver_FPro_data.csv`Dữ liệu đã được xử lý — đạt chuẩn **Silver Layer**, được tạo bởi các file `DataPreprocessing`.
+- `gold_FPro_data_rolling.csv`Dữ liệu Silver có thêm đặc trưng **Rolling Window** — đạt chuẩn **Gold Layer**, được tạo bởi `DataPreprocessing_Rolling.ipynb`.
+- `gold_FPro_data_combination.csv`
   Dữ liệu Silver có thêm đặc trưng **Rolling Window** và **Form** — đạt chuẩn **Gold Layer**, được tạo bởi `DataPreprocessing_Rolling_Form.ipynb`.
 
 ---
