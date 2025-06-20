@@ -1,6 +1,6 @@
 # ⚽ DS108 - Football Prediction
 
-This project focuses on predicting football matches's results based on historical data.
+Dự án tập trung vào dự đoán kết quả các trận đấu bóng đá dựa trên dữ liệu lịch sử.
 
 ## 📌 Table of Contents
 
@@ -123,8 +123,7 @@ Lương Anh Huy - 22520550
 
 Phan Công Minh - 22520884
 
-Instructor: TS. Nguyễn Gia Tuấn Anh
-            CN. Trần Quốc Khánh
+Instructor: TS. Nguyễn Gia Tuấn Anh - CN. Trần Quốc Khánh
 
 ---
 
