@@ -104,14 +104,16 @@ Quy trình dự đoán kết quả trận đấu bóng đá được xây dựng
    ```
 2. Trong terminal, di chuyển đến thư mục chứa file **`PredictApp.py`** và chạy lệnh:
    ```
-   streamlit run 22520550_22520884_PredictApp.py
+   streamlit run PredictApp.py
    ```
 3. Để thoát ứng dụng, nhấn tổ hợp phím **`Ctrl + C`** trong Terminal
 
 --- 
 
 ## 📄 License
-This project is for educational purposes. The dataset is attributed to the original website [fbref](https://fbref.com/en/) and were created by the project team.
+📌 Code components are licensed under the MIT License, allowing reuse, modification, and distribution with attribution and no warranty.
+
+📎 Non-code contents are shared under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0), allowing reuse with attribution for non-commercial purposes.
 
 ---
 
